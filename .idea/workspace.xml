@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="60dd0808-2860-4905-80bb-aaa5ebdb4111" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/SinGAN/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/SinGAN3D/SinGAN/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/SinGAN/manipulate.py" beforeDir="false" afterPath="$PROJECT_DIR$/SinGAN3D/SinGAN/manipulate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/SinGAN3D/config.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/SinGAN3D" />
+  </component>
+  <component name="JupyterTrust" id="99b5ba93-f896-47ab-8fae-51d394167fcd" />
+  <component name="ProjectId" id="1UnKJ76GJ14A9xlweYbAxdAqKAW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SALGAN/SinGAN-master/main_train.py" />
+    <property name="settings.editor.selected.configurable" value="PyScientificConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.tests_on_data_formats">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="CloudSyn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests_on_data_formats.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests_on_data_formats" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CloudSyn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests_on_data_formats.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tests_on_data_formats" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CloudSyn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MyCode/tests_on_data_formats.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_script" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CloudSyn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SinGAN-master/train_script.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.tests_on_data_formats" />
+      <item itemvalue="Python.train_script" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.tests_on_data_formats" />
+        <item itemvalue="Python.tests_on_data_formats" />
+        <item itemvalue="Python.train_script" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60dd0808-2860-4905-80bb-aaa5ebdb4111" name="Default Changelist" comment="" />
+      <created>1575986844484</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575986844484</updated>
+      <workItem from="1577617475372" duration="9148000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="568" y="216" key="#Inspections" timestamp="1576087694205">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="568" y="216" key="#Inspections/0.0.1920.1080@0.0.1920.1080" timestamp="1576087694205" />
+    <state x="848" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577619712589">
+      <screen x="0" y="0" width="3840" height="1080" />
+    </state>
+    <state x="424" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1575993869731" />
+    <state x="848" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3840.1080@0.0.3840.1080" timestamp="1577619712589" />
+    <state x="656" y="360" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576086650811">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="656" y="360" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1576086650811" />
+    <state x="747" y="263" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1575987190154">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="747" y="263" key="#com.intellij.ide.macro.MacrosDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1575987190154" />
+    <state x="853" y="302" key="#xdebugger.XInspectDialog" timestamp="1575988639568">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="853" y="302" key="#xdebugger.XInspectDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1575988639568" />
+    <state x="282" y="529" width="937" height="551" key="#xdebugger.evaluate" timestamp="1576421623091">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="282" y="529" width="937" height="551" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1576421623091" />
+    <state width="1552" height="466" key="DebuggerActiveHint" timestamp="1576047865221">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1552" height="466" key="DebuggerActiveHint/0.0.1920.1080@0.0.1920.1080" timestamp="1576047865221" />
+    <state x="702" y="319" key="EnvironmentVariablesDialog" timestamp="1575993844788">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="702" y="319" key="EnvironmentVariablesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1575993844788" />
+    <state x="1494" y="313" key="FileChooserDialogImpl" timestamp="1577620208539">
+      <screen x="0" y="0" width="3840" height="1080" />
+    </state>
+    <state x="747" y="313" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1576497387174" />
+    <state x="1494" y="313" key="FileChooserDialogImpl/0.0.3840.1080@0.0.3840.1080" timestamp="1577620208539" />
+    <state width="1878" height="277" key="GridCell.Tab.0.bottom" timestamp="1577619681395">
+      <screen x="0" y="0" width="3840" height="1080" />
+    </state>
+    <state width="1899" height="342" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1576497395161" />
+    <state width="1878" height="277" key="GridCell.Tab.0.bottom/0.0.3840.1080@0.0.3840.1080" timestamp="1577619681395" />
+    <state width="1878" height="277" key="GridCell.Tab.0.center" timestamp="1577619681389">
+      <screen x="0" y="0" width="3840" height="1080" />
+    </state>
+    <state width="1899" height="342" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1576497395155" />
+    <state width="1878" height="277" key="GridCell.Tab.0.center/0.0.3840.1080@0.0.3840.1080" timestamp="1577619681389" />
+    <state width="1878" height="277" key="GridCell.Tab.0.left" timestamp="1577619681386">
+      <screen x="0" y="0" width="3840" height="1080" />
+    </state>
+    <state width="1899" height="342" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1576497395152" />
+    <state width="1878" height="277" key="GridCell.Tab.0.left/0.0.3840.1080@0.0.3840.1080" timestamp="1577619681386" />
+    <state width="1878" height="277" key="GridCell.Tab.0.right" timestamp="1577619681392">
+      <screen x="0" y="0" width="3840" height="1080" />
+    </state>
+    <state width="1899" height="342" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1576497395158" />
+    <state width="1878" height="277" key="GridCell.Tab.0.right/0.0.3840.1080@0.0.3840.1080" timestamp="1577619681392" />
+    <state width="1899" height="342" key="GridCell.Tab.1.bottom" timestamp="1576497395171">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="342" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1576497395171" />
+    <state width="1899" height="342" key="GridCell.Tab.1.center" timestamp="1576497395166">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="342" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1576497395166" />
+    <state width="1899" height="342" key="GridCell.Tab.1.left" timestamp="1576497395163">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="342" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1576497395163" />
+    <state width="1899" height="342" key="GridCell.Tab.1.right" timestamp="1576497395169">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1899" height="342" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1576497395169" />
+    <state x="2424" y="93" key="SettingsEditor" timestamp="1577617729534">
+      <screen x="0" y="0" width="3840" height="1080" />
+    </state>
+    <state x="888" y="176" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1575993778206" />
+    <state x="2424" y="93" key="SettingsEditor/0.0.3840.1080@0.0.3840.1080" timestamp="1577617729534" />
+    <state width="960" height="508" key="XDebugger.FullValuePopup" timestamp="1576067635199">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="960" height="508" key="XDebugger.FullValuePopup/0.0.1920.1080@0.0.1920.1080" timestamp="1576067635199" />
+    <state x="632" y="386" key="com.intellij.ide.util.TipDialog" timestamp="1576068665921">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="632" y="386" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1576068665921" />
+    <state x="623" y="259" width="670" height="676" key="search.everywhere.popup" timestamp="1576150685856">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="259" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1576150685856" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CloudSyn$tests_on_data_formats.coverage" NAME="tests_on_data_formats Coverage Results" MODIFIED="1577619670415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CloudSyn$tests_on_data_formats__1_.coverage" NAME="tests_on_data_formats (1) Coverage Results" MODIFIED="1577619681366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
