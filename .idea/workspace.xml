@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60dd0808-2860-4905-80bb-aaa5ebdb4111" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/SinGAN3D/SinGAN/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/SinGAN3D/SinGAN/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SinGAN3D/SinGAN/manipulate.py" beforeDir="false" afterPath="$PROJECT_DIR$/SinGAN3D/SinGAN/manipulate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SinGAN3D/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/SinGAN3D/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notebooks/SinGAN_wrapper_functions_usage.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/SinGAN_wrapper_functions_usage.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +33,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/SinGAN3D" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JupyterTrust" id="99b5ba93-f896-47ab-8fae-51d394167fcd" />
   <component name="ProjectId" id="1UnKJ76GJ14A9xlweYbAxdAqKAW" />
@@ -175,7 +175,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575986844484</updated>
-      <workItem from="1577617475372" duration="9148000" />
+      <workItem from="1577617475372" duration="11721000" />
     </task>
     <servers />
   </component>
@@ -221,26 +221,26 @@
     </state>
     <state x="747" y="313" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1576497387174" />
     <state x="1494" y="313" key="FileChooserDialogImpl/0.0.3840.1080@0.0.3840.1080" timestamp="1577620208539" />
-    <state width="1878" height="277" key="GridCell.Tab.0.bottom" timestamp="1577619681395">
+    <state width="1878" height="277" key="GridCell.Tab.0.bottom" timestamp="1577798877252">
       <screen x="0" y="0" width="3840" height="1080" />
     </state>
     <state width="1899" height="342" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1576497395161" />
-    <state width="1878" height="277" key="GridCell.Tab.0.bottom/0.0.3840.1080@0.0.3840.1080" timestamp="1577619681395" />
-    <state width="1878" height="277" key="GridCell.Tab.0.center" timestamp="1577619681389">
+    <state width="1878" height="277" key="GridCell.Tab.0.bottom/0.0.3840.1080@0.0.3840.1080" timestamp="1577798877252" />
+    <state width="1878" height="277" key="GridCell.Tab.0.center" timestamp="1577798877247">
       <screen x="0" y="0" width="3840" height="1080" />
     </state>
     <state width="1899" height="342" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1576497395155" />
-    <state width="1878" height="277" key="GridCell.Tab.0.center/0.0.3840.1080@0.0.3840.1080" timestamp="1577619681389" />
-    <state width="1878" height="277" key="GridCell.Tab.0.left" timestamp="1577619681386">
+    <state width="1878" height="277" key="GridCell.Tab.0.center/0.0.3840.1080@0.0.3840.1080" timestamp="1577798877247" />
+    <state width="1878" height="277" key="GridCell.Tab.0.left" timestamp="1577798877244">
       <screen x="0" y="0" width="3840" height="1080" />
     </state>
     <state width="1899" height="342" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1576497395152" />
-    <state width="1878" height="277" key="GridCell.Tab.0.left/0.0.3840.1080@0.0.3840.1080" timestamp="1577619681386" />
-    <state width="1878" height="277" key="GridCell.Tab.0.right" timestamp="1577619681392">
+    <state width="1878" height="277" key="GridCell.Tab.0.left/0.0.3840.1080@0.0.3840.1080" timestamp="1577798877244" />
+    <state width="1878" height="277" key="GridCell.Tab.0.right" timestamp="1577798877249">
       <screen x="0" y="0" width="3840" height="1080" />
     </state>
     <state width="1899" height="342" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1576497395158" />
-    <state width="1878" height="277" key="GridCell.Tab.0.right/0.0.3840.1080@0.0.3840.1080" timestamp="1577619681392" />
+    <state width="1878" height="277" key="GridCell.Tab.0.right/0.0.3840.1080@0.0.3840.1080" timestamp="1577798877249" />
     <state width="1899" height="342" key="GridCell.Tab.1.bottom" timestamp="1576497395171">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
