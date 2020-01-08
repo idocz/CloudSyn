@@ -9,10 +9,10 @@ import matplotlib.pyplot as plt
 from SinGAN.imresize import imresize
 
 def train(opt,Gs,Zs,reals,NoiseAmp):
-    real_ = functions.read_image(opt)
+    real_ = functions.read_volume(opt)
     in_s = 0
     scale_num = 0
-    real = imresize(real_,opt.scale1,opt)
+    real = imresize(real_, opt.scale1, opt)
     reals = functions.creat_reals_pyramid(real,reals,opt)
     nfc_prev = 0
 
@@ -76,7 +76,7 @@ def train_single_scale(netD,netG,reals,Gs,Zs,in_s,NoiseAmp,opt,centers=None):
 
     alpha = opt.alpha
 
-    fixed_noise = functions.generate_noise([opt.nc_z,opt.nzx,opt.nzy],device=opt.device)
+    fixed_noise = functions.generate_noise([opt.nc_z, opt.nzx, opt.nzy], device=opt.device)
     z_opt = torch.full(fixed_noise.shape, 0, device=opt.device)
     z_opt = m_noise(z_opt)
 

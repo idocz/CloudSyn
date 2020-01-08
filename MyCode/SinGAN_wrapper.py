@@ -1,7 +1,7 @@
 #import
-import sys
 import os
-sys.path.append("/home/idocz/repo/CloudSyn/SinGAN3D/")
+import sys
+os.chdir("/home/idocz/repo/CloudSyn/SinGAN3D")
 from config import Config
 from SinGAN.manipulate import SinGAN_generate
 from SinGAN.training import train
@@ -16,7 +16,7 @@ class salGAN_wrapper:
         self.load_existing_model = load_existing_model
         self.opt = Config(input_name)
         self.dir2save = functions.generate_dir2save(self.opt)
-        self.real = functions.read_image(self.opt)
+        self.real = functions.read_volume(self.opt)
         functions.adjust_scales2image(self.real, self.opt)
         dir_exists = os.path.exists(self.dir2save)
         assert (not load_existing_model) or dir_exists, "cannot find trained model"

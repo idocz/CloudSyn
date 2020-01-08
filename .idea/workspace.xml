@@ -2,9 +2,75 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60dd0808-2860-4905-80bb-aaa5ebdb4111" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MyCode/debug_draft.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CloudSyn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CloudSyn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/other.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyCode/SinGAN_wrapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyCode/SinGAN_wrapper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyCode/tests_on_data_formats.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyCode/tests_on_data_formats.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyCode/utils.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Notebooks/SinGAN_wrapper_functions_usage.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Notebooks/SinGAN_wrapper_functions_usage.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/SinGAN/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/SinGAN3D/SinGAN/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/SinGAN/imresize.py" beforeDir="false" afterPath="$PROJECT_DIR$/SinGAN3D/SinGAN/imresize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/SinGAN/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/SinGAN3D/SinGAN/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/SinGAN/training.py" beforeDir="false" afterPath="$PROJECT_DIR$/SinGAN3D/SinGAN/training.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/0/G(z_opt).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/0/fake_sample.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/0/netD.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/0/netG.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/0/z_opt.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/1/G(z_opt).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/1/fake_sample.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/1/netD.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/1/netG.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/1/real_scale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/1/z_opt.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/2/G(z_opt).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/2/fake_sample.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/2/netD.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/2/netG.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/2/real_scale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/2/z_opt.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/3/G(z_opt).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/3/fake_sample.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/3/netD.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/3/netG.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/3/real_scale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/3/z_opt.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/4/G(z_opt).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/4/fake_sample.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/4/netD.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/4/netG.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/4/real_scale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/4/z_opt.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/5/G(z_opt).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/5/fake_sample.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/5/netD.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/5/netG.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/5/real_scale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/5/z_opt.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/6/G(z_opt).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/6/fake_sample.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/6/netD.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/6/netG.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/6/real_scale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/6/z_opt.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/7/G(z_opt).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/7/fake_sample.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/7/netD.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/7/netG.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/7/real_scale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/7/z_opt.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/8/G(z_opt).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/8/fake_sample.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/8/real_scale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/8/z_opt.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/Gs.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/NoiseAmp.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/Zs.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/TrainedModels/clouds/scale_factor=0.750000,alpha=10/reals.pth" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SinGAN3D/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/SinGAN3D/config.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +90,9 @@
     </option>
     <expand />
     <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="CloudSyn" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,9 +116,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SALGAN/SinGAN-master/main_train.py" />
-    <property name="settings.editor.selected.configurable" value="PyScientificConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Python.tests_on_data_formats">
+  <component name="RunManager" selected="Python.debug_draft">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="CloudSyn" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -65,7 +134,45 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests_on_data_formats.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CloudSyn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SinGAN3D/config.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="debug_draft" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CloudSyn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MyCode/debug_draft.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -85,7 +192,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests_on_data_formats.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MyCode/tests_on_data_formats.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,9 +248,13 @@
     <list>
       <item itemvalue="Python.tests_on_data_formats" />
       <item itemvalue="Python.train_script" />
+      <item itemvalue="Python.debug_draft" />
+      <item itemvalue="Python.config" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.debug_draft" />
+        <item itemvalue="Python.config" />
         <item itemvalue="Python.tests_on_data_formats" />
         <item itemvalue="Python.tests_on_data_formats" />
         <item itemvalue="Python.train_script" />
@@ -166,7 +277,7 @@
     <option name="AUTOSCROLL_MODE" value="false" />
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -176,26 +287,47 @@
       <option name="presentableId" value="Default" />
       <updated>1575986844484</updated>
       <workItem from="1577617475372" duration="11721000" />
+      <workItem from="1577810594681" duration="1295000" />
+      <workItem from="1578219446849" duration="12966000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/SinGAN3D" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
     <state x="568" y="216" key="#Inspections" timestamp="1576087694205">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="568" y="216" key="#Inspections/0.0.1920.1080@0.0.1920.1080" timestamp="1576087694205" />
-    <state x="848" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577619712589">
+    <state x="848" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578414923048">
       <screen x="0" y="0" width="3840" height="1080" />
     </state>
     <state x="424" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1575993869731" />
-    <state x="848" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3840.1080@0.0.3840.1080" timestamp="1577619712589" />
-    <state x="656" y="360" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576086650811">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="848" y="213" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3840.1080@0.0.3840.1080" timestamp="1578414923048" />
+    <state x="1312" y="360" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577974118630">
+      <screen x="0" y="0" width="3840" height="1080" />
     </state>
     <state x="656" y="360" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1576086650811" />
+    <state x="1312" y="360" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3840.1080@0.0.3840.1080" timestamp="1577974118630" />
     <state x="747" y="263" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1575987190154">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -204,10 +336,11 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="853" y="302" key="#xdebugger.XInspectDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1575988639568" />
-    <state x="282" y="529" width="937" height="551" key="#xdebugger.evaluate" timestamp="1576421623091">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="564" y="521" width="937" height="551" key="#xdebugger.evaluate" timestamp="1578417495498">
+      <screen x="0" y="0" width="3840" height="1080" />
     </state>
     <state x="282" y="529" width="937" height="551" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1576421623091" />
+    <state x="564" y="521" key="#xdebugger.evaluate/0.0.3840.1080@0.0.3840.1080" timestamp="1578417495498" />
     <state width="1552" height="466" key="DebuggerActiveHint" timestamp="1576047865221">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -216,67 +349,97 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="702" y="319" key="EnvironmentVariablesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1575993844788" />
-    <state x="1494" y="313" key="FileChooserDialogImpl" timestamp="1577620208539">
+    <state x="1494" y="313" key="FileChooserDialogImpl" timestamp="1578414896092">
       <screen x="0" y="0" width="3840" height="1080" />
     </state>
     <state x="747" y="313" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1576497387174" />
-    <state x="1494" y="313" key="FileChooserDialogImpl/0.0.3840.1080@0.0.3840.1080" timestamp="1577620208539" />
-    <state width="1878" height="277" key="GridCell.Tab.0.bottom" timestamp="1577798877252">
+    <state x="1494" y="313" key="FileChooserDialogImpl/0.0.3840.1080@0.0.3840.1080" timestamp="1578414896092" />
+    <state width="1878" height="342" key="GridCell.Tab.0.bottom" timestamp="1578417689825">
       <screen x="0" y="0" width="3840" height="1080" />
     </state>
     <state width="1899" height="342" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1576497395161" />
-    <state width="1878" height="277" key="GridCell.Tab.0.bottom/0.0.3840.1080@0.0.3840.1080" timestamp="1577798877252" />
-    <state width="1878" height="277" key="GridCell.Tab.0.center" timestamp="1577798877247">
+    <state width="1878" height="342" key="GridCell.Tab.0.bottom/0.0.3840.1080@0.0.3840.1080" timestamp="1578417689825" />
+    <state width="1878" height="342" key="GridCell.Tab.0.center" timestamp="1578417689821">
       <screen x="0" y="0" width="3840" height="1080" />
     </state>
     <state width="1899" height="342" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1576497395155" />
-    <state width="1878" height="277" key="GridCell.Tab.0.center/0.0.3840.1080@0.0.3840.1080" timestamp="1577798877247" />
-    <state width="1878" height="277" key="GridCell.Tab.0.left" timestamp="1577798877244">
+    <state width="1878" height="342" key="GridCell.Tab.0.center/0.0.3840.1080@0.0.3840.1080" timestamp="1578417689821" />
+    <state width="1878" height="342" key="GridCell.Tab.0.left" timestamp="1578417689818">
       <screen x="0" y="0" width="3840" height="1080" />
     </state>
     <state width="1899" height="342" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1576497395152" />
-    <state width="1878" height="277" key="GridCell.Tab.0.left/0.0.3840.1080@0.0.3840.1080" timestamp="1577798877244" />
-    <state width="1878" height="277" key="GridCell.Tab.0.right" timestamp="1577798877249">
+    <state width="1878" height="342" key="GridCell.Tab.0.left/0.0.3840.1080@0.0.3840.1080" timestamp="1578417689818" />
+    <state width="1878" height="342" key="GridCell.Tab.0.right" timestamp="1578417689823">
       <screen x="0" y="0" width="3840" height="1080" />
     </state>
     <state width="1899" height="342" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1576497395158" />
-    <state width="1878" height="277" key="GridCell.Tab.0.right/0.0.3840.1080@0.0.3840.1080" timestamp="1577798877249" />
-    <state width="1899" height="342" key="GridCell.Tab.1.bottom" timestamp="1576497395171">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1899" height="342" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1576497395171" />
-    <state width="1899" height="342" key="GridCell.Tab.1.center" timestamp="1576497395166">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1899" height="342" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1576497395166" />
-    <state width="1899" height="342" key="GridCell.Tab.1.left" timestamp="1576497395163">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1899" height="342" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1576497395163" />
-    <state width="1899" height="342" key="GridCell.Tab.1.right" timestamp="1576497395169">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1899" height="342" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1576497395169" />
-    <state x="2424" y="93" key="SettingsEditor" timestamp="1577617729534">
+    <state width="1878" height="342" key="GridCell.Tab.0.right/0.0.3840.1080@0.0.3840.1080" timestamp="1578417689823" />
+    <state width="1878" height="342" key="GridCell.Tab.1.bottom" timestamp="1578417696660">
       <screen x="0" y="0" width="3840" height="1080" />
     </state>
-    <state x="888" y="176" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1575993778206" />
-    <state x="2424" y="93" key="SettingsEditor/0.0.3840.1080@0.0.3840.1080" timestamp="1577617729534" />
+    <state width="1899" height="342" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1576497395171" />
+    <state width="1878" height="342" key="GridCell.Tab.1.bottom/0.0.3840.1080@0.0.3840.1080" timestamp="1578417696660" />
+    <state width="1878" height="342" key="GridCell.Tab.1.center" timestamp="1578417696653">
+      <screen x="0" y="0" width="3840" height="1080" />
+    </state>
+    <state width="1899" height="342" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1576497395166" />
+    <state width="1878" height="342" key="GridCell.Tab.1.center/0.0.3840.1080@0.0.3840.1080" timestamp="1578417696653" />
+    <state width="1878" height="342" key="GridCell.Tab.1.left" timestamp="1578417696649">
+      <screen x="0" y="0" width="3840" height="1080" />
+    </state>
+    <state width="1899" height="342" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1576497395163" />
+    <state width="1878" height="342" key="GridCell.Tab.1.left/0.0.3840.1080@0.0.3840.1080" timestamp="1578417696649" />
+    <state width="1878" height="342" key="GridCell.Tab.1.right" timestamp="1578417696657">
+      <screen x="0" y="0" width="3840" height="1080" />
+    </state>
+    <state width="1899" height="342" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1576497395169" />
+    <state width="1878" height="342" key="GridCell.Tab.1.right/0.0.3840.1080@0.0.3840.1080" timestamp="1578417696657" />
+    <state x="791" y="260" key="RollbackChangesDialog" timestamp="1578412484398">
+      <screen x="0" y="0" width="3840" height="1080" />
+    </state>
+    <state x="791" y="260" key="RollbackChangesDialog/0.0.3840.1080@0.0.3840.1080" timestamp="1578412484398" />
+    <state x="888" y="176" key="SettingsEditor" timestamp="1578219685219">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="888" y="176" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1578219685219" />
+    <state x="69" y="225" key="SettingsEditor/0.0.3840.1080@0.0.3840.1080" timestamp="1577810551073" />
     <state width="960" height="508" key="XDebugger.FullValuePopup" timestamp="1576067635199">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="960" height="508" key="XDebugger.FullValuePopup/0.0.1920.1080@0.0.1920.1080" timestamp="1576067635199" />
-    <state x="632" y="386" key="com.intellij.ide.util.TipDialog" timestamp="1576068665921">
+    <state x="632" y="386" key="com.intellij.ide.util.TipDialog" timestamp="1578219447507">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="632" y="386" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1576068665921" />
-    <state x="623" y="259" width="670" height="676" key="search.everywhere.popup" timestamp="1576150685856">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="632" y="386" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1578219447507" />
+    <state x="1264" y="386" key="com.intellij.ide.util.TipDialog/0.0.3840.1080@0.0.3840.1080" timestamp="1577810596610" />
+    <state x="700" y="269" key="git4idea.branch.GitSmartOperationDialog" timestamp="1577810675963">
+      <screen x="0" y="0" width="3840" height="1080" />
+    </state>
+    <state x="700" y="269" key="git4idea.branch.GitSmartOperationDialog/0.0.3840.1080@0.0.3840.1080" timestamp="1577810675963" />
+    <state x="1246" y="259" width="1340" height="676" key="search.everywhere.popup" timestamp="1578417346824">
+      <screen x="0" y="0" width="3840" height="1080" />
     </state>
     <state x="623" y="259" width="670" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1576150685856" />
+    <state x="1246" y="259" width="1340" height="676" key="search.everywhere.popup/0.0.3840.1080@0.0.3840.1080" timestamp="1578417346824" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>mock:///fragment.py</url>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SinGAN3D/SinGAN/training.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/SinGAN3D/SinGAN/functions.py</url>
+          <line>224</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -287,7 +450,8 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CloudSyn$tests_on_data_formats.coverage" NAME="tests_on_data_formats Coverage Results" MODIFIED="1577619670415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CloudSyn$debug_draft.coverage" NAME="debug_draft Coverage Results" MODIFIED="1578417689698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CloudSyn$tests_on_data_formats.coverage" NAME="tests_on_data_formats Coverage Results" MODIFIED="1578413287045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CloudSyn$tests_on_data_formats__1_.coverage" NAME="tests_on_data_formats (1) Coverage Results" MODIFIED="1577619681366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

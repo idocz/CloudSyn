@@ -3,8 +3,8 @@ import torch
 import random
 
 
-class Config:
-    def __init__(self, input_name,  input_dir='Input/Images', mode='train', not_cuda=0, netG='', netD='',
+class Config(object):
+    def __init__(self, input_name, input_dir='Input/Images', mode='train', not_cuda=0, netG='', netD='',
                  manualSeed=None, nc_z=3, nc_im=3, out='Output', nfc=32, min_nfc=32, ker_size=3, num_layer=5, stride=1,
                  padd_size=0, scale_factor=0.75, noise_amp=0.1, min_size=25, max_size=250, niter=2000, gamma=0.1,
                  lr_g=0.0005, lr_d=0.0005, beta1=0.5, Gsteps=3, Dsteps=3, lambda_grad=0.1, alpha=10):
@@ -39,7 +39,6 @@ class Config:
         self.Dsteps = Dsteps
         self.lambda_grad = lambda_grad
         self.alpha = alpha
-
         # init fixed parameters
         self.device = torch.device("cpu" if self.not_cuda else "cuda:0")
         self.niter_init = self.niter

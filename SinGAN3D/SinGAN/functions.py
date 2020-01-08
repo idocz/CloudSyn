@@ -14,6 +14,20 @@ import os
 import random
 from sklearn.cluster import KMeans
 
+def read_volume(opt):
+    x = np.load('%s/%s' % (opt.input_dir,opt.input_name))
+    x = volume2torch(x, opt)
+    return x
+
+def volume2torch(x,opt):
+    x = x[None, None, :, :, :]
+    x = torch.from_numpy(x)
+    if not (opt.not_cuda):
+        x = move_to_gpu(x)
+    x = norm(x)
+    return x
+
+
 
 # custom weights initialization called on netG and netD
 
@@ -36,7 +50,7 @@ def norm(x):
 #    return out#.clamp(I2.min(), I2.max())
 
 def convert_image_np(inp):
-    if inp.shape[1]==3:
+    if inp.shape[1]==3: #TODO: chnage to volume support
         inp = denorm(inp)
         inp = move_to_cpu(inp[-1,:,:,:])
         inp = inp.numpy().transpose((1,2,0))
@@ -156,24 +170,16 @@ def read_image_dir(dir,opt):
     return x
 
 def np2torch(x,opt):
-    if opt.nc_im == 3:
-        x = x[:,:,:,None]
-        x = x.transpose((3, 2, 0, 1))/255
-    else:
-        x = color.rgb2gray(x)
-        x = x[:,:,None,None]
-        x = x.transpose(3, 2, 0, 1)
+    x = x[None,None,:,:,:]
     x = torch.from_numpy(x)
-    if not(opt.not_cuda):
+    if not (opt.not_cuda):
         x = move_to_gpu(x)
     x = x.type(torch.cuda.FloatTensor) if not(opt.not_cuda) else x.type(torch.FloatTensor)
-    #x = x.type(torch.FloatTensor)
     x = norm(x)
-    return x
+    return x/255
 
 def torch2uint8(x):
-    x = x[0,:,:,:]
-    x = x.permute((1,2,0))
+    x = x[0,0,:,:,:]
     x = 255*denorm(x)
     x = x.cpu().numpy()
     x = x.astype(np.uint8)
@@ -190,13 +196,13 @@ def save_networks(netG,netD,z,opt):
     torch.save(z, '%s/z_opt.pth' % (opt.outf))
 
 def adjust_scales2image(real_,opt):
-    #opt.num_scales = int((math.log(math.pow(opt.min_size / (real_.shape[2]), 1), opt.scale_factor_init))) + 1
+
     opt.num_scales = math.ceil((math.log(math.pow(opt.min_size / (min(real_.shape[2], real_.shape[3])), 1), opt.scale_factor_init))) + 1
     scale2stop = math.ceil(math.log(min([opt.max_size, max([real_.shape[2], real_.shape[3]])]) / max([real_.shape[2], real_.shape[3]]),opt.scale_factor_init))
     opt.stop_scale = opt.num_scales - scale2stop
-    opt.scale1 = min(opt.max_size / max([real_.shape[2], real_.shape[3]]),1)  # min(250/max([real_.shape[0],real_.shape[1]]),1)
+    opt.scale1 = min(opt.max_size / max([real_.shape[2], real_.shape[3]]),1)
     real = imresize(real_, opt.scale1, opt)
-    #opt.scale_factor = math.pow(opt.min_size / (real.shape[2]), 1 / (opt.stop_scale))
+
     opt.scale_factor = math.pow(opt.min_size/(min(real.shape[2],real.shape[3])),1/(opt.stop_scale))
     scale2stop = math.ceil(math.log(min([opt.max_size, max([real_.shape[2], real_.shape[3]])]) / max([real_.shape[2], real_.shape[3]]),opt.scale_factor_init))
     opt.stop_scale = opt.num_scales - scale2stop
@@ -216,7 +222,6 @@ def adjust_scales2image_SR(real_,opt):
     return real
 
 def creat_reals_pyramid(real,reals,opt):
-    real = real[:,0:3,:,:]
     for i in range(0,opt.stop_scale+1,1):
         scale = math.pow(opt.scale_factor,opt.stop_scale-i)
         curr_real = imresize(real,scale,opt)

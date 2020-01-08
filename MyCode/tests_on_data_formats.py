@@ -13,7 +13,7 @@ vol_plot = False
 animation_plot = True
 hist_plot = False
 
-from_singan = True
+from_singan = False
 
 if from_singan:
     file_name = "cloud6.npy"
@@ -47,6 +47,7 @@ for z in range(Z_size):
     if (data[:,:,z] == 0).all():
         zeros.append(z)
 print(zeros)
+
 
 
 
